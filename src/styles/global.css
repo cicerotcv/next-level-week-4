@@ -1,0 +1,55 @@
+:root {
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdded;
+  --text: #777;
+  --text-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --red-dark: #c92843;
+  --green: #4cd62b;
+  --green-dark: #3bbd1b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --yellow: rgba(240, 240, 0, 0.2);
+  --yellow-dark: rgb(240, 240, 0);
+  --blue-twitter: #2aa9e0;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem 'Fira Code', monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
